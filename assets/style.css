@@ -30,10 +30,14 @@ a:hover {
     color: rgb(84, 236, 84);
 }
 
-.time {
+.float-right {
     color: snow;
     float: right;
     padding: 7px 20px 0 0;
+}
+
+span {
+    padding-right: 10px;
 }
 
 main {
@@ -44,3 +48,15 @@ main {
 main h1 {
     text-decoration: underline;
 }
+
+button{
+    background-color: purple;
+    font-family: 'Cinzel Decorative', cursive;
+    color: snow;
+    padding: 5px;
+}
+
+.hide {
+    display: none;
+}
+
