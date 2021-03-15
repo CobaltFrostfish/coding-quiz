@@ -14,10 +14,12 @@ function setTime() {
 
 var questionIndex = 0;
 var startbutton = document.querySelector(".start-button");
-var quiz = document.querySelector("#quiz")
+var introText = document.querySelector("#intro");
+var quiz = document.querySelector("#quiz");
 function startQuiz() {
   setTime()
   startbutton.setAttribute("class", "hide");
+  introText.setAttribute("class", "hide");
   displayQuestion();
 }
 
