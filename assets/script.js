@@ -1,4 +1,3 @@
-//Timer settings
 var timeEl = document.querySelector(".time");
 var secondsLeft = 30;
 function setTime() {
@@ -26,14 +25,24 @@ function startQuiz() {
 
 var questions = [
   {
-    question: "What is JavaScript",
+    question: "What is JavaScript?",
     choices: ["A font style", "A powerful coding language used in many web platforms", "A news publication to read with your morning coffee", "Something aliens created"],
     answer: "A powerful coding language used in many web platforms"
   },
   {
-    question: "Which of the following is not a data type",
+    question: "Which of the following is not a data type?",
     choices: ["Boolean", "String", "Input", "Number"],
     answer: "Input"
+  },
+  {
+    question: "What does DOM stand for?",
+    choices: ["Dis Obviously Mental", "Drawn Out Material", "Dominate Oriented Matrix", "Document Object Model"],
+    answer: "Document Object Model"
+  },
+  {
+    question: "How do you de-bug script?",
+    choices: ["Stare the code deep into its soul until the most miniscule problem becoms obvious", "Grab the fly swatter", "BUG BOMB!!!", "Squash it with a large boot"],
+    answer: "Stare the code deep into its soul until the most miniscule problem becoms obvious"
   },
 
 ]

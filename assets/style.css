@@ -50,6 +50,7 @@ main h1 {
 }
 
 button{
+    justify-content: center;
     background-color: purple;
     font-family: 'Cinzel Decorative', cursive;
     color: snow;
@@ -59,4 +60,3 @@ button{
 .hide {
     display: none;
 }
-
